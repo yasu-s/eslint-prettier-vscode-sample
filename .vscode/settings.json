@@ -9,4 +9,5 @@
   "files.trimTrailingWhitespace": true,
   "files.eol": "\n",
   "editor.formatOnSave": false,
+  "eslint.autoFixOnSave": true
 }
