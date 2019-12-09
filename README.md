@@ -1,2 +1,5 @@
 # eslint-prettier-vscode-sample
-EsLint + Prettier + VSCode Sample
+
+## 概要
+
+* ESLint, Prettier, VSCode を使用した自動フォーマットのサンプルです。
