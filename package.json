@@ -4,6 +4,9 @@
   "description": "ESLint + Prettier + VSCode Sample",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "lint:fix": "eslint --fix ./src"
+  },
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.7.0",
