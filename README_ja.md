@@ -1,50 +1,50 @@
 # eslint-prettier-vscode-sample
 
-## Overview
+## 概要
 
-* This is a sample to execute code format using eslint-plugin-prettier.
-* By using Visual Studio Code and ESLint extension, you can format automatically when saving files.
+* eslint-plugin-prettier を使用してコードフォーマットを実行するサンプルです。
+* Visual Studio Code と ESLint拡張機能を使用することでファイル保存時に自動フォーマットができます。
 
-## System requirements
+## 実行環境
 
 * Node.js - 10.x
 * Yarn - 1.17.x
 * Visual Studio Code - 1.40.x
   * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 1.9.x
 
-## Used library
+## 使用ライブラリ
 
 * eslint - 6.7.x
 * prettier - 1.19.x
 * eslint-config-prettier - 6.7.x
 * eslint-plugin-prettier - 3.1.x
 
-## Usage
+## 動作確認
 
-### 1. Download Sample
+### 1. サンプルのダウンロード
 
 ```bash
 git clone git@github.com:yasu-s/eslint-prettier-vscode-sample.git
 ```
 
-### 2. Installing packages
+### 2. パッケージインストール  
 
 ```bash
 cd eslint-prettier-vscode-sample
 yarn
 ```
 
-### 3. Launch sample application
+### 3. サンプルの起動  
 
 ```bash
 yarn lint:fix
 ```
 
-### 4. Execution result of VSCode
+### 4. VSCodeの実行結果
 
 ![eslint](https://user-images.githubusercontent.com/2668146/70415147-549e3c80-1a9f-11ea-97f7-721d299be225.gif)
 
-## Settings
+## 各種設定
 
 ### .vscode/settings.json
 
