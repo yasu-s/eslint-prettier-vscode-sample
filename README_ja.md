@@ -9,14 +9,14 @@
 
 * Node.js - 10.x
 * Yarn - 1.17.x
-* Visual Studio Code - 1.40.x
-  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 1.9.x
+* Visual Studio Code - 1.45.x
+  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 2.1.x
 
 ## 使用ライブラリ
 
-* eslint - 6.7.x
-* prettier - 1.19.x
-* eslint-config-prettier - 6.7.x
+* eslint - 7.1.x
+* prettier - 2.0.x
+* eslint-config-prettier - 6.11.x
 * eslint-plugin-prettier - 3.1.x
 
 ## 動作確認
@@ -50,7 +50,9 @@ yarn lint:fix
 
 ```json
 {
-  "eslint.autoFixOnSave": true
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
 
